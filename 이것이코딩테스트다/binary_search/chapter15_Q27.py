@@ -15,7 +15,7 @@ right_mid = (right_start + right_end) //2
 left_mid = (left_start + left_end) //2
 
 while True:
-    #print('left_mid', left_mid, 'right_mid', right_mid)
+    # print('left_mid', left_mid, 'right_mid', right_mid)
     # 항상 탈출하는 조건
     if data[right_start] > x or data[left_end] < x:
         break
