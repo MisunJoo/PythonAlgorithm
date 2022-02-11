@@ -29,5 +29,3 @@ def is_prime_number(x):
             chae[i] = True
             return False
     return True
-
-print(solution(numbers))
