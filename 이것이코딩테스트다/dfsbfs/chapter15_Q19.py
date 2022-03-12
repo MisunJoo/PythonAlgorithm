@@ -24,7 +24,7 @@ for permutation in permutations:
     final_permutations.append(permutation)
 
 # 식으로 합치기
-for permutation in final_permutations:
+for permutation in final_permutations: # + *
     answer = numbers[0]
     for i in range(0, len(permutation)):
         if permutation[i] == '+':
